@@ -1,0 +1,263 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #1d1d1f;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgba(22, 22, 23, .8);
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px auto 0px;
+}
+.nav_bar{
+    display: flex;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+}
+.nav_bar ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.nav_bar li{
+    cursor: pointer;
+    list-style-type: none;
+    color: rgb(174, 171, 171);
+    font-size: 12px;
+}
+.discount{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: white;
+    padding: 8px 0px;
+    font-size: 16px;
+}
+a{
+    color: #06c;
+    cursor: pointer;
+    text-decoration: none;
+}
+.shop_now{
+    padding-left: 8px;
+}
+.section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    background-color: rgb(243, 243, 243);
+}
+.image_wrapper{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.copy_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+.copy_wrapper h1{
+    margin: 48px 0px 0px;
+}
+.copy_wrapper h3{
+    margin: 8px auto 0px;
+    font-weight: 400;
+}
+.s_image_wrapper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background-position: center;
+    
+}
+.s2{
+    background-image: url(assets/images/hero_iphone14pro_.jpg);
+    color: white;
+    
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    padding: 0px 24px;
+}
+.s3{
+    background-image: url(assets/images/hero_iphone14_yellow__.jpg);
+    margin-bottom: 48px;
+}
+.gap{
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.subsec{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 580px;
+    background-color: white;
+}
+.s4_sec1{
+    background-image: url(assets/images/promo_switch_to_iphone.jpg);
+    background-position: center 90%;
+    background-repeat: no-repeat;
+}
+.s4_sec2{
+    background-image: url(assets/images/promo_macbook_air_15.jpg);
+    background-position: center;
+}
+.s5_sec1{
+    background-image: url(assets/images/promo_apple_watch_series_8_.jpg);
+    background-position: center;
+    color: white;
+}
+.s5_sec2{
+    background-image: url(assets/images/promo_ipadpro_refresh__.jpg);
+    background-position: center;
+    color: white;
+}
+.subsec h1{
+    font-size: 42px;
+}
+.subsec p{
+    font-size: 20px;
+    margin: 16px auto 0px;
+}
+.links p{
+    font-size: 16px;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red_txt{
+    color: maroon;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px !important;
+    margin-top: 4px !important;
+}
+.m2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.m2 p{
+    margin:0;
+}
+.m2_img{
+    display: flex;
+    width: 42px;
+    height: 42px;
+    background-image: url(assets/images/m2_chip.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.s6_sec1{
+    background-image: url(assets/images/promo_airpods_pro_.jpg);
+    background-position: center;
+    color: white;
+}
+.s6_sec2{
+    background-image: url(assets/images/iphone_tradein.jpg);
+    background-position: center;
+}
+footer{
+    background-color: #f5f5f7;
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0px;
+    padding-bottom: 32px;
+}
+.footer_cont{
+    padding-top: 16px;
+    width:75%;
+    height: 100%;
+    margin: 0px auto;
+    font-size: 12px;
+    color: #6e6e73;
+}
+hr{
+    height: 1px;
+    margin: 24px auto;
+    border: none;
+    background-color:  #6e6e73;
+}
+.link_cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #d2d2d7;
+    margin-top:24px;
+    padding: 16px 0px;
+}
+ul{
+    padding: 0px;
+}
+.link_cont li{
+    list-style: none;
+    margin-bottom: 16px;
+    color: #424245;;
+}
+.link_list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+}
+.copyright{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #d2d2d7;
+}
+.copyright > :first-child{
+    width: 25%;
+    margin-right: 48px;
+}
+.ptslsi{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ptslsi > :first-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ptslsi p{
+    padding: 0px 8px;
+}
